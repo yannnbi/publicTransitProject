@@ -12,3 +12,6 @@ tags:
 ## Methodology:
 
 The [MBTA budget from 2025-2001](https://www.mbta.com/financials/mbta-budget) are available as pdfs, which are fed into tabula and output as csv. These are cleaned through pandas (eliminating whitespace) and converted to .xlsx. Then they are imported to google sheets and placed into according sheets.
+
+**Obs:**
+- When constructing panel data, it is easier to merge and resolve categories in the cleaning process and output a multi year excel file than to go through the excel file and hand pick each column one by one, sheet by sheet.
